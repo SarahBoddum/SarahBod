@@ -1,0 +1,28 @@
+{
+  "name": "sarahbod",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "type": "module",
+ "scripts": {
+  "dev": "node --watch server.js",
+  "start": "node server.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SarahBoddum/SarahBod.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SarahBoddum/SarahBod/issues"
+  },
+  "homepage": "https://github.com/SarahBoddum/SarahBod#readme",
+  "dependencies": {
+    "ejs": "^6.0.1",
+    "express": "^5.2.1",
+    "install": "^0.13.0",
+    "npm": "^11.19.1"
+  }
+}
