@@ -23,9 +23,18 @@
             <label for="question">Hvad skal vi snakke om?</label>
             <input id="question" name="question" type="text" /><br>
             <button type="submit">Send</button>
+
+            
         </form>
+
+<% if (error) { %>
+  <p role="alert"><%= error %></p>
+<% } %>
+
         <% for (const message of messages) { %>
-            <p><%= message %></p>
+            <article class="<%= message.type %>">
+                <p><%= message.text %></p>
+            </article>
         <% } %>
     </div>
 </body>
