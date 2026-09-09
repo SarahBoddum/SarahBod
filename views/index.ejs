@@ -24,9 +24,9 @@
             <input id="question" name="question" type="text" /><br>
             <button type="submit">Send</button>
         </form>
-
-        
-     
+        <% for (const message of messages) { %>
+            <p><%= message %></p>
+        <% } %>
     </div>
 </body>
 </html>
