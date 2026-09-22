@@ -790,5 +790,13 @@
   {
     "type": "answer",
     "text": "Jeg har en virksomhed på hobbyniveau (...tror Ase) hvor jeg syr og designer tøj. I virkeligheden er det nok ok meget mere end hobby. Shhhh. Ellers broderer jeg mega meget for tiden, tegner og løber"
+  },
+  {
+    "type": "question",
+    "text": "hvad laver du i din fritid?"
+  },
+  {
+    "type": "answer",
+    "text": "Jeg har en virksomhed på hobbyniveau (...tror Ase) hvor jeg syr og designer tøj. I virkeligheden er det nok ok meget mere end hobby. Shhhh. Ellers broderer jeg mega meget for tiden, tegner og løber"
   }
 ]
