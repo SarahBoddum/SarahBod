@@ -11,39 +11,77 @@
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anaheim:wght@400..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Scheherazade+New:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>SarahChat</title>
     <script src="https://kit.fontawesome.com/6978fc69bd.js" crossorigin="anonymous"></script>
-
+    <scrip src="scrip.js" defer></scrip>
 </head>
 <body>
-    
-    <img src="images/sarahbod.png" alt="SarahBot" class="sarahbot">
-    <div>
-        
-        <div id="answer"></div>
-        <form id="chatForm" method="post" action="/ask">    
-            <label for="question">Hvad skal vi snakke om?</label>
-            <input id="question" name="question" type="text" /><br>
-            <button type="submit">Send</button>
+    <div id="indhold">
+        <img src="images/sarahbod.png" alt="SarahBot" class="sarahbot">
+        <div id="formdiv">
+        <div id="answer">
+            <div id="messages">
 
-            
-        </form>
+                <% if (error) { %>
+                <p role="alert"><%= error %></p>
+                <% } %>
 
-<% if (error) { %>
-  <p role="alert"><%= error %></p>
-<% } %>
+                <% messages.forEach((message, index) => { %>
+                    <article class="<%= message.type %> <%= index === messages.length - 1 && message.type === 'answer' ? 'typewriter' : '' %>">
+                        <p><%= message.text %></p>
+                    </article>
+                <% }) %>
 
-        <% for (const message of messages) { %>
-            <article class="<%= message.type %>">
-                <p><%= message.text %></p>
-            </article>
-        <% } %>
-
+            </div>
+        </div>
+            <form id="chatForm" method="post" action="/ask">    
+                <label for="question">Hvad skal vi snakke om?</label>
+                <input id="question" name="question" type="text" /><br>
+                <button type="submit">Send</button>      
+            </form>  
+            <div class="char-couter">
+                <div id="char-count">0</div>
+            </div>     
+        </div> 
     </div>
-    <h2>Spørgsmål fordelt på emner</h2>
-<ul>
-  <li>Navn: <%= topicStats.navn %></li>
-  <li>Bor: <%= topicStats.bosted %></li>
-  <li>Fritid: <%= topicStats.fritid %></li>
-  <li>Alder: <%= topicStats.alder %></li>
-</ul>
+
+    <div id="tæller">
+        <h2>Spørgsmål fordelt på emner</h2>
+        <ul>
+            <li>Navn: <%= topicStats.navn %></li>
+            <div class="streg"></div>
+            <li>Bor: <%= topicStats.bor %></li>
+            <div class="streg"></div>
+            <li>Fritid: <%= topicStats.fritid %></li>
+            <div class="streg"></div>
+            <li>Alder: <%= topicStats.alder %></li>
+        </ul>
+    </div>
+     <script>
+    const latestAnswer = document.querySelector(".typewriter p");
+    const answerBox = document.querySelector("#answer");
+
+    answerBox.scrollTop = answerBox.scrollHeight;
+
+    if (latestAnswer) {
+        const text = latestAnswer.textContent;
+        latestAnswer.textContent = "";
+
+        let i = 0;
+
+        function typeWriter() {
+            if (i < text.length) {
+                latestAnswer.textContent += text.charAt(i);
+                i++;
+
+                answerBox.scrollTop = answerBox.scrollHeight;
+
+                setTimeout(typeWriter, 30);
+            } else {
+                latestAnswer.parentElement.classList.add("finished");
+            }
+        }
+
+        typeWriter();
+    }
+</script>
 </body>
 </html>

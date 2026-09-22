@@ -1,4 +1,21 @@
-const form = document.getElementById("chatForm");
+let input = document.getElementById('message-input')
+let counter = document.getElementsById('char-count')
+let container = document.querySelector('.char-counter')
+
+input.addEventListener('input', function(event){
+    let length = event.target.value.length
+    counter.innerText = length
+
+    container.classList.remove('warning', 'danger')
+
+    if (lenght > 250){
+        container.classList.add('danger')
+    } else if (lenght > 200){
+        container.classList.add('warning')
+    }
+})
+
+/*const form = document.getElementById("chatForm");
 const input = document.getElementById("userInput");
 const answer = document.getElementById("answer");
 
@@ -21,4 +38,4 @@ form.addEventListener("submit", function(event) {
     }
 
     input.value = "";
-});
+});*/

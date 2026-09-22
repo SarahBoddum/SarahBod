@@ -1,34 +1,66 @@
+*{
+  margin: 0;
+
+  box-sizing: border-box;
+}
 body{
-    display: flex;
+    width: 100vw;
     height: 100vh;
     background-image: url("images/gradient.png");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .abril-fatface-regular {
   font-family: "Abril Fatface", serif;
   font-weight: 400;
   font-style: normal;
 }
-body div{
-    margin-left: 5vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;    
+p, li{
+    font-family: Arial, Helvetica, sans-serif;
 }
-
+.streg{
+    height: 100%;
+    width: 0.5px;
+    background-color: black;
+}
+h2{
+    font-family: "Abril Fatface", serif;
+    font-size: 1.5vw;
+    text-align: center;
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    padding-bottom: 1vh;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1vh;
+}
+#indhold{
+    display: flex;
+    width: 100vw;
+    height: 90vh; 
+    padding-top: 5vh;
+}
+#formdiv{
+    padding-left: 5vw;
+    width: 100%;
+    align-items: center;
+}
 form{
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 label{
     font-family: "Abril Fatface", serif;
     font-size: 3.5vw;
-    margin-top: 20vh;
+    margin-top: 5vh;
 }
 input{
     margin-top: 5vh;
-    margin-bottom: 3vh;
+    margin-bottom: 1vh;
     width: 30vw;
     height: 4vh;
     border-radius: 2vh;
@@ -44,6 +76,52 @@ button{
     border: 0.5px solid black;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
-.sarahbot{
-    margin-left: -1vw;
+#answer {
+    width: 40vw;
+    height: 50vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: auto;
+
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+#answer::-webkit-scrollbar {
+    display: none;
+}
+
+#messages {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 1vh;
+}
+.answer{
+    border: 0.5px solid black;
+    border-radius: 2vh;
+    padding: 1vh;
+    width: 30vw;
+background-color: rgb(255, 235, 245);
+background-color: rgb(216, 239, 250);
+     align-self: flex-start;
+     margin-bottom: 4vh;
+     padding-right: 1vh;
+}
+
+
+.typewriter.finished p {
+    border-right: none;
+}
+
+
+.question{
+    border: 0.5px solid black;
+    border-radius: 2vh;
+    padding: 1vh;
+    width: 30vw;
+    background-color: rgb(255, 235, 245);
+    align-self: flex-end;
+    text-align: right;
 }
