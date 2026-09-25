@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anaheim:wght@400..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Scheherazade+New:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>SarahChat</title>
     <script src="https://kit.fontawesome.com/6978fc69bd.js" crossorigin="anonymous"></script>
-    <scrip src="scrip.js" defer></scrip>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div id="indhold">
@@ -20,23 +20,18 @@
         <div id="answer">
             <div id="messages">
 
-                <% if (error) { %>
-                <p role="alert"><%= error %></p>
-                <% } %>
-
-                <% messages.forEach((message, index) => { %>
-                    <article class="<%= message.type %> <%= index === messages.length - 1 && message.type === 'answer' ? 'typewriter' : '' %>">
-                        <p><%= message.text %></p>
-                    </article>
-                <% }) %>
-
             </div>
         </div>
-            <form id="chatForm" method="post" action="/ask">    
-                <label for="question">Hvad skal vi snakke om?</label>
-                <input id="question" name="question" type="text" /><br>
-                <button type="submit">Send</button>      
-            </form>  
+            <div>
+                <form id="chatForm" method="post" action="/ask">    
+                    <label for="question">Hvad skal vi snakke om?</label>
+                    <input id="question" name="question" type="text" /><br>      
+                </form>  
+                <form method="POST" action="/clear-messages" id="btnForm">
+                    <button type="submit">Send</button>
+                    <button type="submit">Ryd beskeder</button>
+                </form>
+            </div>
             <div class="char-couter">
                 <div id="char-count">0</div>
             </div>     

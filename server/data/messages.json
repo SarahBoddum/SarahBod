@@ -1,0 +1,32 @@
+[
+  {
+    "type": "question",
+    "text": "hvor br ud?",
+    "createdAt": "2026-09-24T11:42:34.088Z"
+  },
+  {
+    "type": "question",
+    "text": "fuck af",
+    "createdAt": "2026-09-24T11:48:22.292Z"
+  },
+  {
+    "type": "answer",
+    "text": "Det kender jeg ikke svaret på endnu.",
+    "createdAt": "2026-09-24T11:48:22.293Z"
+  },
+  {
+    "type": "question",
+    "text": "hvor bor du",
+    "createdAt": "2026-09-24T11:48:31.823Z"
+  },
+  {
+    "type": "answer",
+    "text": "Jeg bor i Beder.",
+    "createdAt": "2026-09-24T11:48:31.823Z"
+  },
+  {
+    "type": "question",
+    "text": "hej",
+    "createdAt": "2026-09-25T17:46:11.587Z"
+  }
+]
