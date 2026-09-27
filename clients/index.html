@@ -10,29 +10,31 @@
     <link rel="icon" href="images/logo.png">
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anaheim:wght@400..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Scheherazade+New:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>SarahChat</title>
+    <script type="module" src="app.js"></script>
     <script src="https://kit.fontawesome.com/6978fc69bd.js" crossorigin="anonymous"></script>
-    <script src="script.js" defer></script>
+    <script type="module" src="app.js"></script>
 </head>
 <body>
     <div id="indhold">
         <img src="images/sarahbod.png" alt="SarahBot" class="sarahbot">
         <div id="formdiv">
-        <div id="answer">
-            <div id="messages">
-
-            </div>
-        </div>
+            <section id="messages-containter">
+                <article id="answer">
+                    <p id="message"></p>
+                </article>
+            </section>
             <div>
-                <form id="chatForm" method="post" action="/ask">    
+                <form id="chatForm">    
                     <label for="question">Hvad skal vi snakke om?</label>
-                    <input id="question" name="question" type="text" /><br>      
+                    <input id="question" name="question" type="text" /><br>
+                      <button type="submit">Send</button>      
                 </form>  
                 <form method="POST" action="/clear-messages" id="btnForm">
-                    <button type="submit">Send</button>
-                    <button type="submit">Ryd beskeder</button>
+                  
+                    <button type="button" id="clear-messages-button">Ryd beskeder</button>
                 </form>
             </div>
-            <div class="char-couter">
+            <div class="char-counter">
                 <div id="char-count">0</div>
             </div>     
         </div> 
@@ -50,33 +52,6 @@
             <li>Alder: <%= topicStats.alder %></li>
         </ul>
     </div>
-     <script>
-    const latestAnswer = document.querySelector(".typewriter p");
-    const answerBox = document.querySelector("#answer");
 
-    answerBox.scrollTop = answerBox.scrollHeight;
-
-    if (latestAnswer) {
-        const text = latestAnswer.textContent;
-        latestAnswer.textContent = "";
-
-        let i = 0;
-
-        function typeWriter() {
-            if (i < text.length) {
-                latestAnswer.textContent += text.charAt(i);
-                i++;
-
-                answerBox.scrollTop = answerBox.scrollHeight;
-
-                setTimeout(typeWriter, 30);
-            } else {
-                latestAnswer.parentElement.classList.add("finished");
-            }
-        }
-
-        typeWriter();
-    }
-</script>
 </body>
 </html>

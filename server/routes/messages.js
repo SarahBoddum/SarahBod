@@ -32,7 +32,7 @@ async function findBestAnswer(question) {
   }
 
   return { answer: bestAnswer, category: bestCategory };
-}
+};
 
 
 router.get("/", async (request, response) => {
@@ -55,7 +55,7 @@ router.post("/", async (request, response) => {
   const message ={ type: "question", text: question, createdAt: new Date().toISOString() };
   messages.push(message);
 
-  const result = findBestAnswer(question);
+  const result = await findBestAnswer(question);
   const answerMessage = { type: "answer", text: result.answer, createdAt: new Date().toISOString() };
   messages.push(answerMessage);
 
@@ -71,7 +71,7 @@ router.delete("/", async (request, response) => {
 
 router.delete("/:id", async (request, response) => {
   const messages = await loadMessages();
-  const index = messages.findIndex((message) => MessageEvent.id === Number(request.params. id));
+  const index = messages.findIndex((message) => message.id === Number(request.params.id));
 
   messages.splice(index, 1);
   await saveMessages(messages);

@@ -76,16 +76,7 @@ button{
     border: 0.5px solid black;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
-#answer {
-    width: 40vw;
-    height: 50vh;
-    overflow-y: auto;
-    overflow-x: hidden;
-    margin: auto;
 
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-}
 
 #answer::-webkit-scrollbar {
     display: none;
@@ -97,6 +88,22 @@ button{
     flex-direction: column;
     justify-content: flex-end;
     gap: 1vh;
+}
+#messages-containter{
+    width: 40vw;
+    height: 50vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+    gap: 2vh;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+#messages-containter::-webkit-scrollbar {
+    display: none;
 }
 .answer{
     border: 0.5px solid black;
