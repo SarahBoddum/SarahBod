@@ -328,5 +328,55 @@
     "type": "answer",
     "text": "Jeg har en virksomhed på hobbyniveau (...tror Ase) hvor jeg syr og designer tøj. I virkeligheden er det nok ok meget mere end hobby. Shhhh. Ellers broderer jeg mega meget for tiden, tegner og løber",
     "createdAt": "2026-09-27T19:06:55.869Z"
+  },
+  {
+    "type": "question",
+    "text": "hvor bor du?",
+    "createdAt": "2026-09-28T07:04:20.123Z"
+  },
+  {
+    "type": "answer",
+    "text": "Jeg bor i Beder.",
+    "createdAt": "2026-09-28T07:04:20.124Z"
+  },
+  {
+    "type": "question",
+    "text": "hallo",
+    "createdAt": "2026-09-28T07:04:26.613Z"
+  },
+  {
+    "type": "answer",
+    "text": "Det kender jeg ikke svaret på endnu.",
+    "createdAt": "2026-09-28T07:04:26.614Z"
+  },
+  {
+    "type": "question",
+    "text": "hvad hedder du?",
+    "createdAt": "2026-09-28T07:12:06.143Z"
+  },
+  {
+    "type": "answer",
+    "text": "Jeg hedder Sarah. Hvad vil du ellers vide om mig?",
+    "createdAt": "2026-09-28T07:12:06.144Z"
+  },
+  {
+    "type": "question",
+    "text": "fgh",
+    "createdAt": "2026-09-28T07:38:45.785Z"
+  },
+  {
+    "type": "answer",
+    "text": "Det kender jeg ikke svaret på endnu.",
+    "createdAt": "2026-09-28T07:38:45.786Z"
+  },
+  {
+    "type": "question",
+    "text": "hvad hedder du og hvor bor du?",
+    "createdAt": "2026-09-28T07:39:06.677Z"
+  },
+  {
+    "type": "answer",
+    "text": "Jeg hedder Sarah. Hvad vil du ellers vide om mig?",
+    "createdAt": "2026-09-28T07:39:06.677Z"
   }
 ]
