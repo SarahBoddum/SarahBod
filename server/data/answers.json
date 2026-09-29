@@ -1,4 +1,14 @@
 [
+    {
+    "category": "hilsen",
+    "keywords": [
+      "hej",
+      "halløj",
+      "goddag",
+      "hallo"
+    ],
+    "answer": "Hej med dig - hvad skal vi snakke om?"
+  },
   {
     "category": "navn",
     "keywords": [
@@ -6,7 +16,16 @@
       "hedder",
       "hvem er du"
     ],
-    "answer": "Jeg hedder Sarah. Hvad vil du ellers vide om mig?"
+    "answer": "Jeg hedder Sarah. Hvad vil du ellers vide om mig?",
+       "relatedQuestions": [
+      {
+        "keywords": [
+          "kælenavn",
+          "øgenavn"
+        ],
+        "answer": "Min bedste ven på efterskolen kaldte mig Flæske - jeg troede det var et øgenavn, men han påstod at det var et kælenavn fordi han virkelig elskede bacon."
+      }
+    ]
   },
   {
     "category": "bor",
@@ -15,7 +34,25 @@
       "by",
       "fra"
     ],
-    "answer": "Jeg bor i Beder."
+    "answer": "Jeg bor i Beder.",
+    "relatedQuestions": [
+      {
+        "keywords": [
+          "bor med",
+          "hvem bor du med",
+          "bor sammen med nogen"
+        ],
+        "answer": "Jeg bor med min mand og mine tre børn"
+      },
+      {
+        "keywords": [
+          "hvor længe har du boet",
+          "boet der",
+          "flyttet til"
+        ],
+         "answer": "Vi har boet i Beder siden 2021"
+      }
+    ]
   },
   {
     "category": "alder",
@@ -33,6 +70,82 @@
       "hobby",
       "kan lide"
     ],
-    "answer": "Jeg har en virksomhed på hobbyniveau (...tror Ase) hvor jeg syr og designer tøj. I virkeligheden er det nok ok meget mere end hobby. Shhhh. Ellers broderer jeg mega meget for tiden, tegner og løber"
+    "answer": "Jeg har en virksomhed på hobbyniveau (...tror Ase) hvor jeg syr og designer tøj. I virkeligheden er det nok ok meget mere end hobby. Shhhh. Ellers broderer jeg mega meget for tiden, tegner og løber",
+    "relatedQuestions": [
+      {
+        "keywords": [
+          "hvad broderer du",
+          "hvad skal det blive",
+          "endelige produkt"
+        ],
+        "answer": "Lige nu er jeg ved at brodere en jakke, der skal have mønster som en denimjakke, men i stedet for denim bruger jeg baner af korsstingsbroderier"
+      },
+      {
+        "keywords": [
+          "hvad er motivet",
+          "hvad forestiller det",
+          "hvordan ser det ud"
+        ],
+         "answer": "Jeg broderer små diskrete scener fra Studio Ghibli film - lige nu er der fra Princess Mononoke, Spirited Away, Howls Moving Castle, Grave of the Fireflies og My Neighbor Totoro"
+      }
+    ]
+  },
+  {
+    "category": "virksomhed",
+    "keywords": [
+      "hvilken virksomhed",
+      "hvad laver du",
+      "hvad syr du"
+    ],
+    "answer": "Jeg laver tøj - primært dametøj og primært jakker - ud af deadstock og genbrugsmaterialer. Men altså hvor det er målet at det IKKE skal ligne brugt stof længere. Synes der er lidt en trend om 'at være tro mod materialets historie', men det synes jeg sgu ofte bliver lidt kikset",
+    "relatedQuestions": [
+      {
+        "keywords": [
+          "hvorfor jakker",
+          "hvad er sjovt ved jakker"
+        ],
+        "answer": "Jakker er sjove fordi der er så mange steder, man kan designe - lukninger (lynlåse, knapper eller sådan noget), lommer, kraver, foer og jeg kunne blive ved ;)"
+      },
+      {
+        "keywords": [
+          "stil",
+          "hvad er din æstetik"
+        ],
+         "answer": "Jeg elsker sløjfer og lyserødt, så det er helt sikkert en core i mit desing DNA og så bruger jeg kun meget sjældent sort og kun i små mængder. Ellers er mit fit meget oversized og boxy - måske lidt maskulint, men mine farver og detaljer er super feminine"
+      },
+        {
+        "keywords": [
+          "materialer",
+          "bæredygtighed"
+        ],
+        "answer": "Jakker er sjove fordi der er så mange steder, man kan designe - lukninger (lynlåse, knapper eller sådan noget), lommer, kraver, foer og jeg kunne blive ved ;)"
+      }
+    ]
+  },
+  {
+    "category": "børn",
+    "keywords": [
+      "hvor mange børn",
+      "har du børn"
+    ],
+    "answer": "Jeg har tre børn på 7, næsten 5 og 1,5",
+    "relatedQuestions": [
+      {
+        "keywords": [
+          "køn",
+          "drenge eller piger",
+          "hvad hedder de"
+        ],
+        "answer": "Min ældste er en dreng og hedder Noël og så har jeg to piger, der hedder Filippa og Ponyo"
+      },
+      {
+        "keywords": [
+          "ponyo",
+          "noget med en tegnefilm",
+          "lige som japansk tegnefilm"
+        ],
+         "answer": "Jaaaa, ligesom Ponyo fra Ghilbli filmen Ponyo på Klippen ved Havet. Da hun var tre måneder mødte hun drengen Såske (en fordanskning af navnet Sosuke) som er Ponyos kæreste i filmen. Chancen er 1/21.000.000.000 siger chatGPT"
+      }
+    ]
   }
 ]

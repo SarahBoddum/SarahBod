@@ -39,7 +39,7 @@ ul{
 #indhold{
     display: flex;
     width: 100vw;
-    height: 90vh; 
+    height: 100vh; 
     padding-top: 5vh;
 }
 #formdiv{
@@ -137,5 +137,12 @@ background-color: rgb(216, 239, 250);
     display: flex;
     width: 25vw;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    margin-top: 5vh;
+}
+#error-message {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    font-size: 1.5vw !important;
 }

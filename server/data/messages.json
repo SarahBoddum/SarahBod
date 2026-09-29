@@ -1,382 +1,162 @@
 [
   {
     "type": "question",
-    "text": "hvor gammel er du?",
-    "createdAt": "2026-09-27T18:19:20.646Z"
-  },
-  {
-    "type": "answer",
-    "text": "Jeg er 35 år gammel.",
-    "createdAt": "2026-09-27T18:19:20.647Z"
-  },
-  {
-    "type": "question",
-    "text": "hvad laver du i din fritid?",
-    "createdAt": "2026-09-27T18:19:27.648Z"
-  },
-  {
-    "type": "answer",
-    "text": "Jeg har en virksomhed på hobbyniveau (...tror Ase) hvor jeg syr og designer tøj. I virkeligheden er det nok ok meget mere end hobby. Shhhh. Ellers broderer jeg mega meget for tiden, tegner og løber",
-    "createdAt": "2026-09-27T18:19:27.648Z"
-  },
-  {
-    "type": "question",
-    "text": "hvor gammel er du?",
-    "createdAt": "2026-09-27T18:21:11.390Z"
-  },
-  {
-    "type": "answer",
-    "text": "Jeg er 35 år gammel.",
-    "createdAt": "2026-09-27T18:21:11.392Z"
-  },
-  {
-    "type": "question",
     "text": "hvor bor du?",
-    "createdAt": "2026-09-27T18:23:02.739Z"
+    "createdAt": "2026-09-29T11:05:51.672Z"
   },
   {
     "type": "answer",
     "text": "Jeg bor i Beder.",
-    "createdAt": "2026-09-27T18:23:02.740Z"
+    "createdAt": "2026-09-29T11:05:51.674Z"
   },
   {
     "type": "question",
-    "text": "hvor bor du?",
-    "createdAt": "2026-09-27T18:23:14.722Z"
-  },
-  {
-    "type": "answer",
-    "text": "Jeg bor i Beder.",
-    "createdAt": "2026-09-27T18:23:14.723Z"
-  },
-  {
-    "type": "question",
-    "text": "hej",
-    "createdAt": "2026-09-27T18:24:18.525Z"
+    "text": "hvor længe har du boet der?",
+    "createdAt": "2026-09-29T11:06:02.161Z"
   },
   {
     "type": "answer",
     "text": "Det kender jeg ikke svaret på endnu.",
-    "createdAt": "2026-09-27T18:24:18.526Z"
+    "createdAt": "2026-09-29T11:06:02.162Z"
+  },
+  {
+    "type": "question",
+    "text": "hvor længe har du boet i beder?",
+    "createdAt": "2026-09-29T11:10:47.092Z"
+  },
+  {
+    "type": "answer",
+    "text": "Det kender jeg ikke svaret på endnu.",
+    "createdAt": "2026-09-29T11:10:47.094Z"
+  },
+  {
+    "type": "question",
+    "text": "hvor længe har du boet i beder?",
+    "createdAt": "2026-09-29T11:13:42.192Z"
+  },
+  {
+    "type": "answer",
+    "text": "Vi har boet i Beder siden 2021",
+    "createdAt": "2026-09-29T11:13:42.194Z"
   },
   {
     "type": "question",
     "text": "hvor bor du?",
-    "createdAt": "2026-09-27T18:27:46.337Z"
+    "createdAt": "2026-09-29T11:13:47.471Z"
   },
   {
     "type": "answer",
     "text": "Jeg bor i Beder.",
-    "createdAt": "2026-09-27T18:27:46.339Z"
+    "createdAt": "2026-09-29T11:13:47.471Z"
+  },
+  {
+    "type": "question",
+    "text": "hvem bor du med?",
+    "createdAt": "2026-09-29T11:13:54.790Z"
+  },
+  {
+    "type": "answer",
+    "text": "Jeg bor med min mand og mine tre børn",
+    "createdAt": "2026-09-29T11:13:54.790Z"
+  },
+  {
+    "type": "question",
+    "text": "hvem bor du med ?",
+    "createdAt": "2026-09-29T17:44:48.791Z"
+  },
+  {
+    "type": "answer",
+    "text": "Jakker er sjove fordi der er så mange steder, man kan designe - lukninger (lynlåse, knapper eller sådan noget), lommer, kraver, foer og jeg kunne blive ved ;)",
+    "createdAt": "2026-09-29T17:44:48.793Z"
+  },
+  {
+    "type": "question",
+    "text": "hvem bor du med?",
+    "createdAt": "2026-09-29T17:45:09.109Z"
+  },
+  {
+    "type": "answer",
+    "text": "Jakker er sjove fordi der er så mange steder, man kan designe - lukninger (lynlåse, knapper eller sådan noget), lommer, kraver, foer og jeg kunne blive ved ;)",
+    "createdAt": "2026-09-29T17:45:09.109Z"
   },
   {
     "type": "question",
     "text": "hvad hedder du?",
-    "createdAt": "2026-09-27T18:28:37.485Z"
+    "createdAt": "2026-09-29T17:45:24.785Z"
   },
   {
     "type": "answer",
-    "text": "Jeg hedder Sarah. Hvad vil du ellers vide om mig?",
-    "createdAt": "2026-09-27T18:28:37.485Z"
-  },
-  {
-    "type": "question",
-    "text": "hallo",
-    "createdAt": "2026-09-27T18:28:55.664Z"
-  },
-  {
-    "type": "answer",
-    "text": "Det kender jeg ikke svaret på endnu.",
-    "createdAt": "2026-09-27T18:28:55.665Z"
-  },
-  {
-    "type": "question",
-    "text": "hallo",
-    "createdAt": "2026-09-27T18:28:59.943Z"
-  },
-  {
-    "type": "answer",
-    "text": "Det kender jeg ikke svaret på endnu.",
-    "createdAt": "2026-09-27T18:28:59.945Z"
-  },
-  {
-    "type": "question",
-    "text": "hallo",
-    "createdAt": "2026-09-27T18:29:26.467Z"
-  },
-  {
-    "type": "answer",
-    "text": "Det kender jeg ikke svaret på endnu.",
-    "createdAt": "2026-09-27T18:29:26.469Z"
-  },
-  {
-    "type": "question",
-    "text": "hej",
-    "createdAt": "2026-09-27T18:31:28.651Z"
-  },
-  {
-    "type": "answer",
-    "text": "Det kender jeg ikke svaret på endnu.",
-    "createdAt": "2026-09-27T18:31:28.652Z"
-  },
-  {
-    "type": "question",
-    "text": "hvor bor du?",
-    "createdAt": "2026-09-27T18:31:38.137Z"
-  },
-  {
-    "type": "answer",
-    "text": "Jeg bor i Beder.",
-    "createdAt": "2026-09-27T18:31:38.138Z"
-  },
-  {
-    "type": "question",
-    "text": "hvor bor du?",
-    "createdAt": "2026-09-27T18:31:39.436Z"
-  },
-  {
-    "type": "answer",
-    "text": "Jeg bor i Beder.",
-    "createdAt": "2026-09-27T18:31:39.437Z"
-  },
-  {
-    "type": "question",
-    "text": "hvor bor du?",
-    "createdAt": "2026-09-27T18:33:59.755Z"
-  },
-  {
-    "type": "answer",
-    "text": "Jeg bor i Beder.",
-    "createdAt": "2026-09-27T18:33:59.755Z"
-  },
-  {
-    "type": "question",
-    "text": "hvor bor du?",
-    "createdAt": "2026-09-27T18:34:00.820Z"
-  },
-  {
-    "type": "answer",
-    "text": "Jeg bor i Beder.",
-    "createdAt": "2026-09-27T18:34:00.820Z"
-  },
-  {
-    "type": "question",
-    "text": "hvor gammel er du?",
-    "createdAt": "2026-09-27T18:34:06.253Z"
-  },
-  {
-    "type": "answer",
-    "text": "Jeg er 35 år gammel.",
-    "createdAt": "2026-09-27T18:34:06.253Z"
-  },
-  {
-    "type": "question",
-    "text": "hvor gammel er du?",
-    "createdAt": "2026-09-27T18:34:10.351Z"
-  },
-  {
-    "type": "answer",
-    "text": "Jeg er 35 år gammel.",
-    "createdAt": "2026-09-27T18:34:10.352Z"
-  },
-  {
-    "type": "question",
-    "text": "hvor bor du",
-    "createdAt": "2026-09-27T18:34:46.736Z"
-  },
-  {
-    "type": "answer",
-    "text": "Jeg bor i Beder.",
-    "createdAt": "2026-09-27T18:34:46.736Z"
-  },
-  {
-    "type": "question",
-    "text": "hvor bor du",
-    "createdAt": "2026-09-27T18:34:48.800Z"
-  },
-  {
-    "type": "answer",
-    "text": "Jeg bor i Beder.",
-    "createdAt": "2026-09-27T18:34:48.801Z"
-  },
-  {
-    "type": "question",
-    "text": "hvor bor du",
-    "createdAt": "2026-09-27T18:35:55.478Z"
-  },
-  {
-    "type": "answer",
-    "text": "Jeg bor i Beder.",
-    "createdAt": "2026-09-27T18:35:55.478Z"
-  },
-  {
-    "type": "question",
-    "text": "hallo",
-    "createdAt": "2026-09-27T18:36:19.753Z"
-  },
-  {
-    "type": "answer",
-    "text": "Det kender jeg ikke svaret på endnu.",
-    "createdAt": "2026-09-27T18:36:19.754Z"
+    "text": "Jakker er sjove fordi der er så mange steder, man kan designe - lukninger (lynlåse, knapper eller sådan noget), lommer, kraver, foer og jeg kunne blive ved ;)",
+    "createdAt": "2026-09-29T17:45:24.785Z"
   },
   {
     "type": "question",
     "text": "hvad hedder du?",
-    "createdAt": "2026-09-27T18:59:58.453Z"
+    "createdAt": "2026-09-29T17:47:09.989Z"
   },
   {
     "type": "answer",
     "text": "Jeg hedder Sarah. Hvad vil du ellers vide om mig?",
-    "createdAt": "2026-09-27T18:59:58.454Z"
+    "createdAt": "2026-09-29T17:47:09.995Z"
   },
   {
     "type": "question",
-    "text": "hvad laver du i din fritid?",
-    "createdAt": "2026-09-27T19:00:06.881Z"
+    "text": "hvem bor du med?",
+    "createdAt": "2026-09-29T17:47:17.572Z"
   },
   {
     "type": "answer",
-    "text": "Jeg har en virksomhed på hobbyniveau (...tror Ase) hvor jeg syr og designer tøj. I virkeligheden er det nok ok meget mere end hobby. Shhhh. Ellers broderer jeg mega meget for tiden, tegner og løber",
-    "createdAt": "2026-09-27T19:00:06.882Z"
+    "text": "Jeg bor med min mand og mine tre børn",
+    "createdAt": "2026-09-29T17:47:17.573Z"
   },
   {
     "type": "question",
-    "text": "hvad laver du i din fritid?",
-    "createdAt": "2026-09-27T19:00:08.904Z"
+    "text": "hvad syr du",
+    "createdAt": "2026-09-29T17:47:46.136Z"
   },
   {
     "type": "answer",
-    "text": "Jeg har en virksomhed på hobbyniveau (...tror Ase) hvor jeg syr og designer tøj. I virkeligheden er det nok ok meget mere end hobby. Shhhh. Ellers broderer jeg mega meget for tiden, tegner og løber",
-    "createdAt": "2026-09-27T19:00:08.905Z"
+    "text": "Jeg laver tøj - primært dametøj og primært jakker - ud af deadstock og genbrugsmaterialer. Men altså hvor det er målet at det IKKE skal ligne brugt stof længere. Synes der er lidt en trend om 'at være tro mod materialets historie', men det synes jeg sgu ofte bliver lidt kikset",
+    "createdAt": "2026-09-29T17:47:46.137Z"
   },
   {
     "type": "question",
-    "text": "hvad laver du i din fritid?",
-    "createdAt": "2026-09-27T19:05:28.591Z"
-  },
-  {
-    "type": "answer",
-    "text": "Jeg har en virksomhed på hobbyniveau (...tror Ase) hvor jeg syr og designer tøj. I virkeligheden er det nok ok meget mere end hobby. Shhhh. Ellers broderer jeg mega meget for tiden, tegner og løber",
-    "createdAt": "2026-09-27T19:05:28.592Z"
-  },
-  {
-    "type": "question",
-    "text": "hvad laver du i din fritid?",
-    "createdAt": "2026-09-27T19:05:34.406Z"
-  },
-  {
-    "type": "answer",
-    "text": "Jeg har en virksomhed på hobbyniveau (...tror Ase) hvor jeg syr og designer tøj. I virkeligheden er det nok ok meget mere end hobby. Shhhh. Ellers broderer jeg mega meget for tiden, tegner og løber",
-    "createdAt": "2026-09-27T19:05:34.407Z"
-  },
-  {
-    "type": "question",
-    "text": "hvad laver du i din fritid?",
-    "createdAt": "2026-09-27T19:05:45.298Z"
-  },
-  {
-    "type": "answer",
-    "text": "Jeg har en virksomhed på hobbyniveau (...tror Ase) hvor jeg syr og designer tøj. I virkeligheden er det nok ok meget mere end hobby. Shhhh. Ellers broderer jeg mega meget for tiden, tegner og løber",
-    "createdAt": "2026-09-27T19:05:45.299Z"
-  },
-  {
-    "type": "question",
-    "text": "hvor gammel er du?",
-    "createdAt": "2026-09-27T19:05:52.532Z"
-  },
-  {
-    "type": "answer",
-    "text": "Jeg er 35 år gammel.",
-    "createdAt": "2026-09-27T19:05:52.532Z"
-  },
-  {
-    "type": "question",
-    "text": "hvor gammel er du?",
-    "createdAt": "2026-09-27T19:05:57.624Z"
-  },
-  {
-    "type": "answer",
-    "text": "Jeg er 35 år gammel.",
-    "createdAt": "2026-09-27T19:05:57.625Z"
-  },
-  {
-    "type": "question",
-    "text": "hvor gammel er du?",
-    "createdAt": "2026-09-27T19:06:44.891Z"
-  },
-  {
-    "type": "answer",
-    "text": "Jeg er 35 år gammel.",
-    "createdAt": "2026-09-27T19:06:44.893Z"
-  },
-  {
-    "type": "question",
-    "text": "hallo",
-    "createdAt": "2026-09-27T19:06:51.291Z"
+    "text": "hvad er din æstetik?",
+    "createdAt": "2026-09-29T17:48:04.098Z"
   },
   {
     "type": "answer",
     "text": "Det kender jeg ikke svaret på endnu.",
-    "createdAt": "2026-09-27T19:06:51.291Z"
+    "createdAt": "2026-09-29T17:48:04.100Z"
   },
   {
     "type": "question",
-    "text": "hvad laver du i din fritid?",
-    "createdAt": "2026-09-27T19:06:55.868Z"
+    "text": "hvad er din stil?",
+    "createdAt": "2026-09-29T17:48:32.906Z"
   },
   {
     "type": "answer",
-    "text": "Jeg har en virksomhed på hobbyniveau (...tror Ase) hvor jeg syr og designer tøj. I virkeligheden er det nok ok meget mere end hobby. Shhhh. Ellers broderer jeg mega meget for tiden, tegner og løber",
-    "createdAt": "2026-09-27T19:06:55.869Z"
+    "text": "Det kender jeg ikke svaret på endnu.",
+    "createdAt": "2026-09-29T17:48:32.907Z"
+  },
+  {
+    "type": "question",
+    "text": "hvad er din stil?",
+    "createdAt": "2026-09-29T17:50:19.051Z"
+  },
+  {
+    "type": "answer",
+    "text": "Jeg elsker sløjfer og lyserødt, så det er helt sikkert en core i mit desing DNA og så bruger jeg kun meget sjældent sort og kun i små mængder. Ellers er mit fit meget oversized og boxy - måske lidt maskulint, men mine farver og detaljer er super feminine",
+    "createdAt": "2026-09-29T17:50:19.052Z"
   },
   {
     "type": "question",
     "text": "hvor bor du?",
-    "createdAt": "2026-09-28T07:04:20.123Z"
+    "createdAt": "2026-09-29T17:50:29.168Z"
   },
   {
     "type": "answer",
     "text": "Jeg bor i Beder.",
-    "createdAt": "2026-09-28T07:04:20.124Z"
-  },
-  {
-    "type": "question",
-    "text": "hallo",
-    "createdAt": "2026-09-28T07:04:26.613Z"
-  },
-  {
-    "type": "answer",
-    "text": "Det kender jeg ikke svaret på endnu.",
-    "createdAt": "2026-09-28T07:04:26.614Z"
-  },
-  {
-    "type": "question",
-    "text": "hvad hedder du?",
-    "createdAt": "2026-09-28T07:12:06.143Z"
-  },
-  {
-    "type": "answer",
-    "text": "Jeg hedder Sarah. Hvad vil du ellers vide om mig?",
-    "createdAt": "2026-09-28T07:12:06.144Z"
-  },
-  {
-    "type": "question",
-    "text": "fgh",
-    "createdAt": "2026-09-28T07:38:45.785Z"
-  },
-  {
-    "type": "answer",
-    "text": "Det kender jeg ikke svaret på endnu.",
-    "createdAt": "2026-09-28T07:38:45.786Z"
-  },
-  {
-    "type": "question",
-    "text": "hvad hedder du og hvor bor du?",
-    "createdAt": "2026-09-28T07:39:06.677Z"
-  },
-  {
-    "type": "answer",
-    "text": "Jeg hedder Sarah. Hvad vil du ellers vide om mig?",
-    "createdAt": "2026-09-28T07:39:06.677Z"
+    "createdAt": "2026-09-29T17:50:29.169Z"
   }
 ]

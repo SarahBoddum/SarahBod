@@ -10,13 +10,13 @@
     <link rel="icon" href="images/logo.png">
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anaheim:wght@400..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Scheherazade+New:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>SarahChat</title>
-    <script type="module" src="app.js"></script>
+
     <script src="https://kit.fontawesome.com/6978fc69bd.js" crossorigin="anonymous"></script>
     <script type="module" src="app.js"></script>
 </head>
 <body>
     <div id="indhold">
-        <img src="images/sarahbod2.png" alt="SarahBot" class="sarahbot">
+        <img src="images/3.gif" alt="SarahBot" class="sarahbot">
         <div id="formdiv">
             <section id="messages-containter">
                 <article id="answer">
@@ -24,8 +24,9 @@
                 </article>
             </section>
             <div>
-                <form id="chatForm">    
+                <form id="chatForm">   
                     <label for="question">Hvad skal vi snakke om?</label>
+                    <p id="error-message"></p> 
                     <input id="question" name="question" type="text" /><br>
                       <button type="submit">Send</button>      
                 </form>  
@@ -34,24 +35,11 @@
                     <button type="button" id="clear-messages-button">Ryd beskeder</button>
                 </form>
             </div>
-            <div class="char-counter">
-                <div id="char-count">0</div>
-            </div>     
+                 
         </div> 
     </div>
 
-    <div id="tæller">
-        <h2>Spørgsmål fordelt på emner</h2>
-        <ul>
-            <li>Navn: <%= topicStats.navn %></li>
-            <div class="streg"></div>
-            <li>Bor: <%= topicStats.bor %></li>
-            <div class="streg"></div>
-            <li>Fritid: <%= topicStats.fritid %></li>
-            <div class="streg"></div>
-            <li>Alder: <%= topicStats.alder %></li>
-        </ul>
-    </div>
+
 
 </body>
 </html>
