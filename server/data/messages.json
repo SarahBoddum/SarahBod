@@ -1,162 +1,22 @@
 [
   {
     "type": "question",
-    "text": "hvor bor du?",
-    "createdAt": "2026-09-29T11:05:51.672Z"
+    "text": "Hvad kan du lide at lave i din fritid?",
+    "createdAt": "2026-09-30T06:43:13.518Z"
   },
   {
     "type": "answer",
-    "text": "Jeg bor i Beder.",
-    "createdAt": "2026-09-29T11:05:51.674Z"
+    "text": "Jeg har en virksomhed på hobbyniveau (...tror Ase) hvor jeg syr og designer tøj. I virkeligheden er det nok ok meget mere end hobby. Shhhh. Ellers broderer jeg mega meget for tiden, tegner og løber",
+    "createdAt": "2026-09-30T06:43:13.518Z"
   },
   {
     "type": "question",
-    "text": "hvor længe har du boet der?",
-    "createdAt": "2026-09-29T11:06:02.161Z"
+    "text": "Hvad broderer du?",
+    "createdAt": "2026-09-30T06:43:48.554Z"
   },
   {
     "type": "answer",
-    "text": "Det kender jeg ikke svaret på endnu.",
-    "createdAt": "2026-09-29T11:06:02.162Z"
-  },
-  {
-    "type": "question",
-    "text": "hvor længe har du boet i beder?",
-    "createdAt": "2026-09-29T11:10:47.092Z"
-  },
-  {
-    "type": "answer",
-    "text": "Det kender jeg ikke svaret på endnu.",
-    "createdAt": "2026-09-29T11:10:47.094Z"
-  },
-  {
-    "type": "question",
-    "text": "hvor længe har du boet i beder?",
-    "createdAt": "2026-09-29T11:13:42.192Z"
-  },
-  {
-    "type": "answer",
-    "text": "Vi har boet i Beder siden 2021",
-    "createdAt": "2026-09-29T11:13:42.194Z"
-  },
-  {
-    "type": "question",
-    "text": "hvor bor du?",
-    "createdAt": "2026-09-29T11:13:47.471Z"
-  },
-  {
-    "type": "answer",
-    "text": "Jeg bor i Beder.",
-    "createdAt": "2026-09-29T11:13:47.471Z"
-  },
-  {
-    "type": "question",
-    "text": "hvem bor du med?",
-    "createdAt": "2026-09-29T11:13:54.790Z"
-  },
-  {
-    "type": "answer",
-    "text": "Jeg bor med min mand og mine tre børn",
-    "createdAt": "2026-09-29T11:13:54.790Z"
-  },
-  {
-    "type": "question",
-    "text": "hvem bor du med ?",
-    "createdAt": "2026-09-29T17:44:48.791Z"
-  },
-  {
-    "type": "answer",
-    "text": "Jakker er sjove fordi der er så mange steder, man kan designe - lukninger (lynlåse, knapper eller sådan noget), lommer, kraver, foer og jeg kunne blive ved ;)",
-    "createdAt": "2026-09-29T17:44:48.793Z"
-  },
-  {
-    "type": "question",
-    "text": "hvem bor du med?",
-    "createdAt": "2026-09-29T17:45:09.109Z"
-  },
-  {
-    "type": "answer",
-    "text": "Jakker er sjove fordi der er så mange steder, man kan designe - lukninger (lynlåse, knapper eller sådan noget), lommer, kraver, foer og jeg kunne blive ved ;)",
-    "createdAt": "2026-09-29T17:45:09.109Z"
-  },
-  {
-    "type": "question",
-    "text": "hvad hedder du?",
-    "createdAt": "2026-09-29T17:45:24.785Z"
-  },
-  {
-    "type": "answer",
-    "text": "Jakker er sjove fordi der er så mange steder, man kan designe - lukninger (lynlåse, knapper eller sådan noget), lommer, kraver, foer og jeg kunne blive ved ;)",
-    "createdAt": "2026-09-29T17:45:24.785Z"
-  },
-  {
-    "type": "question",
-    "text": "hvad hedder du?",
-    "createdAt": "2026-09-29T17:47:09.989Z"
-  },
-  {
-    "type": "answer",
-    "text": "Jeg hedder Sarah. Hvad vil du ellers vide om mig?",
-    "createdAt": "2026-09-29T17:47:09.995Z"
-  },
-  {
-    "type": "question",
-    "text": "hvem bor du med?",
-    "createdAt": "2026-09-29T17:47:17.572Z"
-  },
-  {
-    "type": "answer",
-    "text": "Jeg bor med min mand og mine tre børn",
-    "createdAt": "2026-09-29T17:47:17.573Z"
-  },
-  {
-    "type": "question",
-    "text": "hvad syr du",
-    "createdAt": "2026-09-29T17:47:46.136Z"
-  },
-  {
-    "type": "answer",
-    "text": "Jeg laver tøj - primært dametøj og primært jakker - ud af deadstock og genbrugsmaterialer. Men altså hvor det er målet at det IKKE skal ligne brugt stof længere. Synes der er lidt en trend om 'at være tro mod materialets historie', men det synes jeg sgu ofte bliver lidt kikset",
-    "createdAt": "2026-09-29T17:47:46.137Z"
-  },
-  {
-    "type": "question",
-    "text": "hvad er din æstetik?",
-    "createdAt": "2026-09-29T17:48:04.098Z"
-  },
-  {
-    "type": "answer",
-    "text": "Det kender jeg ikke svaret på endnu.",
-    "createdAt": "2026-09-29T17:48:04.100Z"
-  },
-  {
-    "type": "question",
-    "text": "hvad er din stil?",
-    "createdAt": "2026-09-29T17:48:32.906Z"
-  },
-  {
-    "type": "answer",
-    "text": "Det kender jeg ikke svaret på endnu.",
-    "createdAt": "2026-09-29T17:48:32.907Z"
-  },
-  {
-    "type": "question",
-    "text": "hvad er din stil?",
-    "createdAt": "2026-09-29T17:50:19.051Z"
-  },
-  {
-    "type": "answer",
-    "text": "Jeg elsker sløjfer og lyserødt, så det er helt sikkert en core i mit desing DNA og så bruger jeg kun meget sjældent sort og kun i små mængder. Ellers er mit fit meget oversized og boxy - måske lidt maskulint, men mine farver og detaljer er super feminine",
-    "createdAt": "2026-09-29T17:50:19.052Z"
-  },
-  {
-    "type": "question",
-    "text": "hvor bor du?",
-    "createdAt": "2026-09-29T17:50:29.168Z"
-  },
-  {
-    "type": "answer",
-    "text": "Jeg bor i Beder.",
-    "createdAt": "2026-09-29T17:50:29.169Z"
+    "text": "Lige nu er jeg ved at brodere en jakke, der skal have mønster som en denimjakke, men i stedet for denim bruger jeg baner af korsstingsbroderier",
+    "createdAt": "2026-09-30T06:43:48.555Z"
   }
 ]
